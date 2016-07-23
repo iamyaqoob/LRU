@@ -57,7 +57,7 @@ class dll{
 		else if(count <= size){
 			System.out.println("size less or equal " + size);
 			x.next = head;
-			head.prev = head;
+			head.prev = x;
 			head = x;
 			count++;
 			return;
